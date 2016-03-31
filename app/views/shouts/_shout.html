@@ -1,5 +1,7 @@
 <%= div_for shout do %>
-	
+	<%= link_to current_user.username, current_user %>
+	je kriknuo 
 	<%= shout.body %>
+	<%= link_to time_ago_in_words(shout.created_at), shout %>
 
 <% end %>

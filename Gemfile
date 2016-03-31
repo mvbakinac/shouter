@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'monban', '~> 0.3.1'
 gem 'monban-generators'
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.4'
 # gem 'bcrypt', '~> 3.1.7'
 
 # gem 'unicorn'

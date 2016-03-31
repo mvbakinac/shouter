@@ -1,7 +1,11 @@
 <%= div_for shout do %>
+	<%= gravatar shout.user %>
 	<%= link_to current_user.username, current_user %>
 	je kriknuo 
-	<%= shout.body %>
+	<div>
+		<%= render shout.content %>
+	</div>
+	
 	<%= link_to time_ago_in_words(shout.created_at), shout %>
 
 <% end %>

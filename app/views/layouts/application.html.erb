@@ -7,6 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<pre>
+	<% params.each do |key, value| %>
+	      <%= key + "=>" + value + "\n" %>
+	<% end %> 
+     </pre>
 <div>
 	<% if signed_in? %>
 		<%= link_to current_user.username, dashboard_path %>

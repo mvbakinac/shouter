@@ -11,7 +11,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'monban', '~> 0.3.1'
+gem 'monban-generators'
 # gem 'bcrypt', '~> 3.1.7'
 
 # gem 'unicorn'
